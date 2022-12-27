@@ -47,31 +47,103 @@ body {
     height: 100px;
     width: 200px;
   }
+
   .btn1 {
 background-color: #3882F6;
 color: white;
   }
-img {
-    height: 90px;
-    width: 90px;
+
+  /* Some random information section */
+
+  h2 {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+.group img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid #3882F6;
 }
+.group, figcaption {
+  flex: 1;
+  padding: 50px;
+  /* margin-right: 50px;
+  margin-left: 50px; */
+  display: inline-flex;
+}
+
+.container, figcaption {  
+  justify-content: center;
+  display: flex;
+}
+
+/* figcaption {
+  text-align: center;
+
+} */
+
+/* Quote section */
+
 section {
     background-color: #E5E7EB;
 }
+
 .quote {
-    font-size: 36px;]
-    font-weight: bolder;
+    font-size: 36px;
+    font-style: italic;
     color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
+
+.quote2 {
+  padding: 75px;
+}
+
+.thor {
+  margin-left: 450px;
+}
+
+/* Call to action section */
+
 .section4 {
     background-color: white;
+    padding: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
+
 .blue {
     background-color: #3882F6;
+    color: white;
     margin: 50px;
+    border-radius: 10px;
 }
+
+.call {
+  margin: 20px;
+  margin-top: 25px;
+  padding: 20px;
+}
+.btn2 {
+  margin-left: 500px;
+  background-color: #3882F6;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
   /* footer */
+
   footer {
     background-color: #1F2937;
     color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: small;
   }
