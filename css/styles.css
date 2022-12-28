@@ -8,7 +8,7 @@
 
 .header-logo {
   font-size: 35px;
-  margin-left: 400px;
+  margin-left: 150px;
   display: flex;
 }
 
@@ -146,7 +146,7 @@ h2 {
   font-family: 'Roboto', arial;
   text-align: right;
   font-size: 25px;
-  margin-left: 1000px;
+  margin-left: 900px;
   /* display: flex; */
 }
 
