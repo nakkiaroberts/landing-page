@@ -7,69 +7,74 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Landing Page</title>
 </head>
-
-<header>
-    <div class="topnav">
-        <h4>Header Logo</h4>
-        <a class="active" href="#home">Home</a>
-        <a href="#link one">link one</a>
-        <a href="#link two">link two</a>
-        <a href="#link three">link three</a>
-      <br>
-      <br>
-      <h1>This website is awesome</h1> 
-   <p class="secondary-text">
-    This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
-   </p>
-   <button class="btn1">Sign up</button>
-   <img src="image/ocean.jpeg" alt="ocean sunset" class="ocean">
-</div>
-</header>
-
 <body>
-    <h2>Some random information.</h2>
-    <div class="container">    
-        <div class="group">
-        <figure>
-            <img src="image/beach:.jpeg" alt="sunset beach">
-            <figcaption>This is some subtext under the illustration or image.</figcaption>
-        </figure>
-        <figure>
-            <img src="image/beach2.jpeg" alt="beach and birds">
-            <figcaption>This is some subtext under the illustration or image.</figcaption>
-        </figure>
-        <figure>
-            <img src="image/beach3.jpeg" alt="beach and sea foam">
-            <figcaption>This is some subtext under the illustration or image.</figcaption>
-        </figure>
-        <figure>
-            <img src="image/sea.jpeg" alt="whale tale">
-            <figcaption>This is some subtext under the illustration or image.</figcaption>
-        </figure>
-    </div>    
-   </div>
-   
-   <section>
-        <div class="quote2">
-            <p class="quote">
-            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it.  Who knows? All I know is that it looks nice. 
-            <p class="thor"><strong>-Thor, God of Thunder</strong></p></p>
-        </div>
-    </section>
+    <div class="maincontainer">
+        <nav class="bx navbar">
+            <div class="header-logo">
+                <img src="" alt="Header Logo">
+            </div>
+            <div class="header-link">
+                <a href="#">About</a>
+                <a href="#">Destinations</a>
+                <a href="#">Contact</a>                    
+            </div>
+        </nav>
 
-   <div class="section4">
-    <div class="blue">
-        <div  class="call">
-            <p><strong>Call to action! It's time!</strong>
-        <br>
-        Sign up for our product by clicking that button right over there!
-        </p>
-            <button class="btn2">Sign up</button>
+        <div class="bx hero">
+            <div class="hero-1 hero-cta">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under
+                    the main title. It's a smaller font and the color is 
+                    lower contrast
+                </p>
+                <button type="button">Sign Up</button>
+            </div>
+            <div class="hero-1 hero-image">
+                <img src="image/beach:.jpeg" alt="beach">
             </div>
         </div>
+
+        <div class="bx content">
+            <h2>Some random informaton</h2>
+            <div class="content-info">
+                <div>
+                    <img src="image/beach2.jpeg">
+                    <p>this is some subtext under and illustration or image</p>
+                </div>
+                <div>
+                    <img src="image/beach3.jpeg">
+                    <p>this is some subtext under and illustration or image</p>
+                </div>
+                <div>
+                    <img src="image/ocean.jpeg">
+                    <p>this is some subtext under and illustration or image</p>
+                </div>
+                <div>
+                    <img src="image/sea.jpeg">
+                    <p>this is some subtext under and illustration or image</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bx quote">
+            <p>"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <b>
+                -- Thor, God of Thunder
+            </b>
+        </div>
+
+        <div class="bx sign-up">
+            <div class="sign-item signs-text">
+                <h3>Call to action! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="sign-item signs-button">
+                <button type="button">Sign Up</button>
+            </div>
+        </div>
+        <div class="bx footer">
+            <p>Copyright © The Odin Project 2021</p>
+        </div>
     </div>
-
-   <footer>Copyright NSRoberts 2022</footer>
 </body>
-
 </html>
