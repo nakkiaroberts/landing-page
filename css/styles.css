@@ -7,14 +7,16 @@
 }
 
 .header-logo img {
-  width: 84px;
-  height: 84px;
+  width: 200px;
+  height: 400px;
   margin-right: auto;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .header-link {
   display: flex;
-  margin-left: auto;
+  margin-left: 725px;
   padding: 0px 100px 0px 0px;  
 }
 
@@ -72,32 +74,45 @@ h1 {
 
 .hero-image img {
   width: 500px;
-  height: 350px;
+  height: 250px;
 }
 
-/* Content Part */
+/* Info Section */
 
 .content {
   align-items: center;
+  
 }
 
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
 .content-info {
   display: flex;
-  /* border: 1px solid gold; */
   justify-content: center;
-  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  font-size: 20px;
 }
 
+.caption {
+    width: 180px;
+    text-align: center;
+}
 .content-info img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 4px solid #3882F6;
   border-radius: 15px;
-  margin: 5px 20px 0px 20px;
+  margin: 5px 20px 0px 20px;  
 }
 
-/* Quotation Part */
+/* Quote section */
 
 .quote {
   display: flex;
@@ -112,6 +127,7 @@ h1 {
   font-style: italic;
   font-weight: lighter;
   font-family: 'Roboto', arial;
+  padding: 50px 0px 50px 0px;
 }
 
 .quote b {
@@ -119,9 +135,10 @@ h1 {
   padding-right: 10px;
   font-family: 'Roboto', arial;
   text-align: right;
+  font-size: 25px;
 }
 
-/* Sign Up Part */
+/* Call section */
 .sign-up {
   background-color: #3882F6 ;
   margin: 50px 200px;
@@ -141,32 +158,36 @@ h1 {
 }
 
 .signs-text p {
-  color: #fff;
+  color: white;
   opacity: 0.7;
   margin: 5px 30px 30px 50px;
 }
 
 h3 {
-  color: #fff;
+  color: white;
   font-family: 'Roboto', arial;
   padding: 0;
   margin: 30px 0px 0px 50px;
 }
 
 .signs-button button {
-  color: #fff;
+  color: white;
   font-family: 'Roboto', arial;
-  border-color: #fff;
+  border-color: white;
   border-radius: 8px;
   background-color: #3882F6;
   padding: 5px 25px;
   font-size: 15px;
+  margin-left: 250px;
 }
 
 /* Footer */
 
 .footer {
-  background-color: #1F2937;
-  color: #fff;
-  font-family: 'Roboto', arial;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Roboto', arial;
 }
